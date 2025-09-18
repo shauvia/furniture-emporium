@@ -47,7 +47,13 @@ h2 {
 button {
   width: 100%;
   background-color: lightblue;
-  height: 2em;
+  height: 3em;
   border: 2px rgb(93, 155, 176) solid;
   border-radius: 1em;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: rgb(0, 116, 154);
+  color: rgb(255, 255, 255);
 }
